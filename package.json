@@ -1,0 +1,23 @@
+{
+    "name": "testing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jsdom": "^16.4.0",
+        "lodash": "^4.17.21",
+        "prettier": "^2.2.1"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.168",
+        "@types/node": "^14.14.36",
+        "@types/prettier": "^2.2.3"
+    }
+}

@@ -1,0 +1,111 @@
+html,
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1vw 1vw;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+a[href] {
+    color: rgb(0, 140, 255);
+}
+
+input {
+    border-radius: 0.2vw;
+    border-style: solid;
+}
+#livesearch[open] {
+    padding: 0vw 0.2vw 0.1vw;
+    border: 1px solid #a5acb2;
+    width: 30vw;
+    max-height: 10vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 0 0 0.3vw 0.3vw;
+}
+
+.module {
+    margin-bottom: 10vw;
+}
+
+.high {
+    margin: 0 1vw;
+}
+
+.low {
+    margin: 0 1vw;
+}
+
+div[endpoint] {
+    margin: 0 1vw;
+}
+
+pre {
+    margin: 0;
+}
+
+summary {
+    font-weight: lighter;
+    font-size: 1vw;
+}
+
+summary > div {
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+.light {
+    font-weight: 200;
+    font-size: 0.9vw;
+    margin: 0.2vw 0 1vw 2vw;
+}
+
+details[open] summary ~ * {
+    animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        margin-left: 0;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 2vw;
+    }
+}
+
+details > div {
+    margin: 0 0 2vw 2vw;
+    padding: 1vw 1vw;
+    border-radius: 0.4vw;
+    border-width: 0 0 0 0.5vw;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+code {
+    border-radius: 0.2vw;
+}
+
+details > div > h5 {
+    font-size: 1vw;
+    margin: 1vw 0 0 0;
+}
+
+details > div > div {
+    margin: 0 0 0 1vw;
+}
+
+ul {
+    padding-left: 1vw;
+    margin: 0.5vw 0 0 0;
+}
+
+.ajax-login {
+    margin: 1vw 0 0 0;
+}
