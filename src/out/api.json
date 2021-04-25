@@ -583,7 +583,7 @@
                 },
                 {
                     "title": "core_competency_count_templates_using_competency",
-                    "description": "Count a list of a learning plan templates for a given competency.\n                    ",
+                    "description": "Count a list of a learning plan templates for a given competency.",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -649,7 +649,7 @@
                 },
                 {
                     "title": "core_competency_create_user_evidence_competency",
-                    "description": "Create an evidence of prior learning relationship with a\n                        competency.",
+                    "description": "Create an evidence of prior learning relationship with a competency.",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -755,7 +755,7 @@
                 },
                 {
                     "title": "core_competency_delete_user_evidence_competency",
-                    "description": "Delete an evidence of prior learning relationship with a\n                        competency.",
+                    "description": "Delete an evidence of prior learning relationship with a competency.",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -941,7 +941,7 @@
                 },
                 {
                     "title": "core_competency_list_templates_using_competency",
-                    "description": "Load a list of a learning plan templates for a given competency.\n                    ",
+                    "description": "Load a list of a learning plan templates for a given competency.",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -1507,7 +1507,7 @@
             "check": [
                 {
                     "title": "core_course_check_updates",
-                    "description": "Check if there is updates affecting the user for the given course\n                        and contexts.",
+                    "description": "Check if there is updates affecting the user for the given course and contexts.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -1581,7 +1581,7 @@
             "edit": [
                 {
                     "title": "core_course_edit_module",
-                    "description": "Performs an action on course module (change visibility, duplicate,\n                        delete, etc.)",
+                    "description": "Performs an action on course module (change visibility, duplicate, delete, etc.)",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -1605,7 +1605,7 @@
                 },
                 {
                     "title": "core_course_edit_section",
-                    "description": "Performs an action on course section (change visibility, set\n                        marker, delete)",
+                    "description": "Performs an action on course section (change visibility, set marker, delete)",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -1631,7 +1631,7 @@
             "get": [
                 {
                     "title": "core_course_get_activities_overview",
-                    "description": "** DEPRECATED ** Please do not call this function any more. Return\n                        activities overview for the given courses.",
+                    "description": "** DEPRECATED ** Please do not call this function any more. Return activities overview for the given courses.",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -1696,7 +1696,7 @@
                             "structure": "int   //The course module id"
                         }
                     ],
-                    "response": "type reponse = {\n    cm: {\n        id: number\n        course: number\n        module: number\n        name: string\n        modname: string\n        instance: number\n        section: number\n        sectionnum: number\n        groupmode: number\n        groupingid: number\n        completion: number\n        idnumber: string\n        added: number\n        score: number\n        indent: number\n        visible: number\n        visibleoncoursepage: number\n        visibleold: number\n        completiongradeitemnumber: number\n        completionview: number\n        completionexpected: number\n        showdescription: number\n        availability: string\n        grade: double\n        scale: string\n        gradepass: string\n        gradecat: number\n        advancedgrading: {\n            area: string\n            method: string\n        }[]\n        outcomes: {\n            id: string\n            name: string\n            scale: string\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    cm: {\n        id: number\n        course: number\n        module: number\n        name: string\n        modname: string\n        instance: number\n        section: number\n        sectionnum: number\n        groupmode: number\n        groupingid: number\n        completion: number\n        idnumber: string\n        added: number\n        score: number\n        indent: number\n        visible: number\n        visibleoncoursepage: number\n        visibleold: number\n        completiongradeitemnumber: number\n        completionview: number\n        completionexpected: number\n        showdescription: number\n        availability: string\n        grade: number\n        scale: string\n        gradepass: string\n        gradecat: number\n        advancedgrading: {\n            area: string\n            method: string\n        }[]\n        outcomes: {\n            id: string\n            name: string\n            scale: string\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -1716,7 +1716,7 @@
                             "structure": "int   //The module instance id"
                         }
                     ],
-                    "response": "type reponse = {\n    cm: {\n        id: number\n        course: number\n        module: number\n        name: string\n        modname: string\n        instance: number\n        section: number\n        sectionnum: number\n        groupmode: number\n        groupingid: number\n        completion: number\n        idnumber: string\n        added: number\n        score: number\n        indent: number\n        visible: number\n        visibleoncoursepage: number\n        visibleold: number\n        completiongradeitemnumber: number\n        completionview: number\n        completionexpected: number\n        showdescription: number\n        availability: string\n        grade: double\n        scale: string\n        gradepass: string\n        gradecat: number\n        advancedgrading: {\n            area: string\n            method: string\n        }[]\n        outcomes: {\n            id: string\n            name: string\n            scale: string\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    cm: {\n        id: number\n        course: number\n        module: number\n        name: string\n        modname: string\n        instance: number\n        section: number\n        sectionnum: number\n        groupmode: number\n        groupingid: number\n        completion: number\n        idnumber: string\n        added: number\n        score: number\n        indent: number\n        visible: number\n        visibleoncoursepage: number\n        visibleold: number\n        completiongradeitemnumber: number\n        completionview: number\n        completionexpected: number\n        showdescription: number\n        availability: string\n        grade: number\n        scale: string\n        gradepass: string\n        gradecat: number\n        advancedgrading: {\n            area: string\n            method: string\n        }[]\n        outcomes: {\n            id: string\n            name: string\n            scale: string\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -1739,7 +1739,7 @@
                 },
                 {
                     "title": "core_course_get_courses_by_field",
-                    "description": "Get courses matching a specific field (id/s, shortname, idnumber,\n                        category)",
+                    "description": "Get courses matching a specific field (id/s, shortname, idnumber, category)",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -1779,7 +1779,7 @@
                 },
                 {
                     "title": "core_course_get_updates_since",
-                    "description": "Check if there are updates affecting the user for the given course\n                        since the given time stamp.",
+                    "description": "Check if there are updates affecting the user for the given course since the given time stamp.",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -1803,7 +1803,7 @@
                 },
                 {
                     "title": "core_course_get_user_administration_options",
-                    "description": "Return a list of administration options in a set of courses that\n                        are avaialable or not for the current user.\n                    ",
+                    "description": "Return a list of administration options in a set of courses that are avaialable or not for the current user.\n    ",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -1819,7 +1819,7 @@
                 },
                 {
                     "title": "core_course_get_user_navigation_options",
-                    "description": "Return a list of navigation options in a set of courses that are\n                        avaialable or not for the current user.",
+                    "description": "Return a list of navigation options in a set of courses that are avaialable or not for the current user.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -1893,7 +1893,7 @@
                 },
                 {
                     "title": "core_enrol_get_enrolled_users_with_capability",
-                    "description": "For each course and capability specified, return a list of the\n                        users that are enrolled in the course and have that capability",
+                    "description": "For each course and capability specified, return a list of the users that are enrolled in the course and have that capability",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -1958,7 +1958,7 @@
                             "structure": "int   //user id"
                         }
                     ],
-                    "response": "type reponse = {\n    id: number\n    shortname: string\n    fullname: string\n    enrolledusercount: number\n    idnumber: string\n    visible: number\n    summary: string\n    summaryformat: number\n    format: string\n    showgrades: number\n    lang: string\n    enablecompletion: number\n    category: number\n    progress: double\n    startdate: number\n    enddate: number\n}[]\n",
+                    "response": "type reponse = {\n    id: number\n    shortname: string\n    fullname: string\n    enrolledusercount: number\n    idnumber: string\n    visible: number\n    summary: string\n    summaryformat: number\n    format: string\n    showgrades: number\n    lang: string\n    enablecompletion: number\n    category: number\n    progress: number\n    startdate: number\n    enddate: number\n}[]\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -1997,7 +1997,7 @@
             "component": [
                 {
                     "title": "core_get_component_strings",
-                    "description": "Return all raw strings (with {$a->xxx}), for a specific\n                        component - similar to core get_component_strings(), call",
+                    "description": "Return all raw strings (with {$a->xxx}), for a specific component - similar to core get_component_strings(), call",
                     "ajax": true,
                     "login": false,
                     "args": [
@@ -2019,7 +2019,7 @@
             "strings": [
                 {
                     "title": "core_get_strings",
-                    "description": "Return some translated strings - like several core get_string(),\n                        calls",
+                    "description": "Return some translated strings - like several core get_string(), calls",
                     "ajax": true,
                     "login": false,
                     "args": [
@@ -2056,7 +2056,7 @@
                             "structure": "int  Default to \"0\" //Only the active method"
                         }
                     ],
-                    "response": "type reponse = {\n    areas: {\n        cmid: number\n        contextid: number\n        component: string\n        areaname: string\n        activemethod: string\n        definitions: {\n            id: number\n            method: string\n            name: string\n            description: string\n            descriptionformat: number\n            status: number\n            copiedfromid: number\n            timecreated: number\n            usercreated: number\n            timemodified: number\n            usermodified: number\n            timecopied: number\n            guide: {\n                guide_criteria: {\n                    id: number\n                    sortorder: number\n                    description: string\n                    descriptionformat: number\n                    shortname: string\n                    descriptionmarkers: string\n                    descriptionmarkersformat: number\n                    maxscore: double\n                }[]\n                guide_comments: {\n                    id: number\n                    sortorder: number\n                    description: string\n                    descriptionformat: number\n                }[]\n            }\n            rubric: {\n                rubric_criteria: {\n                    id: number\n                    sortorder: number\n                    description: string\n                    descriptionformat: number\n                    levels: {\n                        id: number\n                        score: double\n                        definition: string\n                        definitionformat: number\n                    }[]\n                }[]\n            }\n        }[]\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    areas: {\n        cmid: number\n        contextid: number\n        component: string\n        areaname: string\n        activemethod: string\n        definitions: {\n            id: number\n            method: string\n            name: string\n            description: string\n            descriptionformat: number\n            status: number\n            copiedfromid: number\n            timecreated: number\n            usercreated: number\n            timemodified: number\n            usermodified: number\n            timecopied: number\n            guide: {\n                guide_criteria: {\n                    id: number\n                    sortorder: number\n                    description: string\n                    descriptionformat: number\n                    shortname: string\n                    descriptionmarkers: string\n                    descriptionmarkersformat: number\n                    maxscore: number\n                }[]\n                guide_comments: {\n                    id: number\n                    sortorder: number\n                    description: string\n                    descriptionformat: number\n                }[]\n            }\n            rubric: {\n                rubric_criteria: {\n                    id: number\n                    sortorder: number\n                    description: string\n                    descriptionformat: number\n                    levels: {\n                        id: number\n                        score: number\n                        definition: string\n                        definitionformat: number\n                    }[]\n                }[]\n            }\n        }[]\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -2076,7 +2076,7 @@
                             "structure": "int  Default to \"0\" //submitted since"
                         }
                     ],
-                    "response": "type reponse = {\n    instances: {\n        id: number\n        raterid: number\n        itemid: number\n        rawgrade: string\n        status: number\n        feedback: string\n        feedbackformat: number\n        timemodified: number\n        guide: {\n            criteria: {\n                id: number\n                criterionid: number\n                levelid: number\n                remark: string\n                remarkformat: number\n                score: double\n            }[]\n        }\n        rubric: {\n            criteria: {\n                id: number\n                criterionid: number\n                levelid: number\n                remark: string\n                remarkformat: number\n            }[]\n        }\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    instances: {\n        id: number\n        raterid: number\n        itemid: number\n        rawgrade: string\n        status: number\n        feedback: string\n        feedbackformat: number\n        timemodified: number\n        guide: {\n            criteria: {\n                id: number\n                criterionid: number\n                levelid: number\n                remark: string\n                remarkformat: number\n                score: number\n            }[]\n        }\n        rubric: {\n            criteria: {\n                id: number\n                criterionid: number\n                levelid: number\n                remark: string\n                remarkformat: number\n            }[]\n        }\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -2138,7 +2138,7 @@
             "get": [
                 {
                     "title": "core_group_get_activity_allowed_groups",
-                    "description": "Gets a list of groups that the user is allowed to access within the\n                        specified activity.",
+                    "description": "Gets a list of groups that the user is allowed to access within the specified activity.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -2206,7 +2206,7 @@
                 },
                 {
                     "title": "core_group_get_course_user_groups",
-                    "description": "Returns all groups in specified course for the specified user.\n                    ",
+                    "description": "Returns all groups in specified course for the specified user.",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -2484,7 +2484,7 @@
                 },
                 {
                     "title": "core_message_data_for_messagearea_search_users_in_course",
-                    "description": "Retrieve the template data for searching for people in a course\n                    ",
+                    "description": "Retrieve the template data for searching for people in a course",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -2565,7 +2565,7 @@
                 },
                 {
                     "title": "core_message_get_messages",
-                    "description": "Retrieve a list of messages sent and received by a user\n                        (conversations, notifications or both)",
+                    "description": "Retrieve a list of messages sent and received by a user (conversations, notifications or both)",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -2715,7 +2715,7 @@
                 },
                 {
                     "title": "core_message_mark_notification_read",
-                    "description": "Mark a single notification as read, trigger notification_viewed\n                        event.",
+                    "description": "Mark a single notification as read, trigger notification_viewed event.",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -2908,7 +2908,7 @@
             "get": [
                 {
                     "title": "core_user_get_course_user_profiles",
-                    "description": "Get course user profiles (each of the profils matching a course id\n                        and a user id),.",
+                    "description": "Get course user profiles (each of the profils matching a course id and a user id),.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -2924,7 +2924,7 @@
                 },
                 {
                     "title": "core_user_get_private_files_info",
-                    "description": "Returns general information about files in the user private files\n                        area.",
+                    "description": "Returns general information about files in the user private files area.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -2976,7 +2976,7 @@
                 },
                 {
                     "title": "core_user_get_users_by_field",
-                    "description": "Retrieve users' information for a specified unique field - If you\n                        want to do a user search, use core_user_get_users()",
+                    "description": "Retrieve users' information for a specified unique field - If you want to do a user search, use core_user_get_users()",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -3141,7 +3141,7 @@
             "are": [
                 {
                     "title": "message_airnotifier_are_notification_preferences_configured",
-                    "description": "Check if the users have notification preferences configured yet\n                    ",
+                    "description": "Check if the users have notification preferences configured yet",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -3220,7 +3220,7 @@
                 },
                 {
                     "title": "mod_assign_get_participant",
-                    "description": "Get a participant for an assignment, with some summary info about\n                        their submissions.",
+                    "description": "Get a participant for an assignment, with some summary info about their submissions.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -3244,7 +3244,7 @@
                 },
                 {
                     "title": "mod_assign_get_submission_status",
-                    "description": "Returns information about an assignment submission status for a\n                        given user.",
+                    "description": "Returns information about an assignment submission status for a given user.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -3574,7 +3574,7 @@
                 },
                 {
                     "title": "mod_chat_get_chats_by_courses",
-                    "description": "Returns a list of\n                        chat instances in a provided set of courses, if no courses are provided\n                        then all the chat instances the user has access to will be returned.",
+                    "description": "Returns a list of \nchat instances in a provided set of courses, if no courses are provided \nthen all the chat instances the user has access to will be returned.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -3644,7 +3644,7 @@
             "view": [
                 {
                     "title": "mod_chat_view_chat",
-                    "description": "Trigger the course module viewed event and update the module\n                        completion status.",
+                    "description": "Trigger the course module viewed event and update the module completion status.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -3695,14 +3695,14 @@
                             "structure": "int   //choice instance id"
                         }
                     ],
-                    "response": "type reponse = {\n    options: {\n        id: number\n        text: string\n        maxanswer: number\n        userresponses: {\n            userid: number\n            fullname: string\n            profileimageurl: string\n            answerid: number\n            timemodified: number\n        }[]\n        numberofuser: number\n        percentageamount: double\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    options: {\n        id: number\n        text: string\n        maxanswer: number\n        userresponses: {\n            userid: number\n            fullname: string\n            profileimageurl: string\n            answerid: number\n            timemodified: number\n        }[]\n        numberofuser: number\n        percentageamount: number\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
                 },
                 {
                     "title": "mod_choice_get_choices_by_courses",
-                    "description": "Returns a list of\n                        choice instances in a provided set of courses, if no courses are\n                        provided then all the choice instances the user has access to will be\n                        returned.",
+                    "description": "Returns a list of \nchoice instances in a provided set of courses, if no courses are \nprovided then all the choice instances the user has access to will be \nreturned.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -3768,7 +3768,7 @@
                 },
                 {
                     "title": "mod_data_get_databases_by_courses",
-                    "description": "Returns a list of\n                        database instances in a provided set of courses, if no courses are\n                        provided then all the database instances the user has access to will be\n                        returned.",
+                    "description": "Returns a list of \ndatabase instances in a provided set of courses, if no courses are \nprovided then all the database instances the user has access to will be \nreturned.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -3824,7 +3824,7 @@
                 },
                 {
                     "title": "mod_data_get_entry",
-                    "description": "Return one entry record from the database, including contents\n                        optionally.",
+                    "description": "Return one entry record from the database, including contents optionally.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -3837,7 +3837,7 @@
                             "structure": "int  Default to \"\" //Whether to return contents or not."
                         }
                     ],
-                    "response": "type reponse = {\n    entry: {\n        id: number\n        userid: number\n        groupid: number\n        dataid: number\n        timecreated: number\n        timemodified: number\n        approved: number\n        canmanageentry: number\n        fullname: string\n        contents: {\n            id: number\n            fieldid: number\n            recordid: number\n            content: string\n            content1: string\n            content2: string\n            content3: string\n            content4: string\n            files: {\n                filename: string\n                filepath: string\n                filesize: number\n                fileurl: string\n                timemodified: number\n                mimetype: string\n                isexternalfile: number\n                repositorytype: string\n            }[]\n        }[]\n    }\n    entryviewcontents: string\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    entry: {\n        id: number\n        userid: number\n        groupid: number\n        dataid: number\n        timecreated: number\n        timemodified: number\n        approved: number\n        canmanageentry: number\n        fullname: string\n        contents: {\n            id: number\n            fieldid: number\n            recordid: number\n            content: string\n            content1: string\n            content2: string\n            content3: string\n            content4: string\n            files: {\n                filename: string\n                filepath: string\n                filesize: number\n                fileurl: string\n                timemodified: number\n                mimetype: string\n                isexternalfile: number\n                repositorytype: string\n            }[]\n        }[]\n    }\n    entryviewcontents: string\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -3862,7 +3862,7 @@
             "view": [
                 {
                     "title": "mod_data_view_database",
-                    "description": "Simulate the view.php web interface data: trigger events,\n                        completion, etc...",
+                    "description": "Simulate the view.php web interface data: trigger events, completion, etc...",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -3934,7 +3934,7 @@
                 },
                 {
                     "title": "mod_feedback_get_feedbacks_by_courses",
-                    "description": "Returns a list of\n                        feedbacks in a provided list of courses, if no list is provided all\n                        feedbacks that the user can view will be returned.",
+                    "description": "Returns a list of \nfeedbacks in a provided list of courses, if no list is provided all \nfeedbacks that the user can view will be returned.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -4096,7 +4096,7 @@
             "view": [
                 {
                     "title": "mod_feedback_view_feedback",
-                    "description": "Trigger the course module viewed event and update the module\n                        completion status.",
+                    "description": "Trigger the course module viewed event and update the module completion status.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -4199,14 +4199,14 @@
                             "structure": "string  Default to \"DESC\" //sort direction: ASC or DESC"
                         }
                     ],
-                    "response": "type reponse = {\n    posts: {\n        id: number\n        discussion: number\n        parent: number\n        userid: number\n        created: number\n        modified: number\n        mailed: number\n        subject: string\n        message: string\n        messageformat: number\n        messagetrust: number\n        messageinlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: string\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        totalscore: number\n        mailnow: number\n        children: {}[]\n        canreply: number\n        postread: number\n        userfullname: string\n        userpictureurl: string\n        deleted: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    posts: {\n        id: number\n        discussion: number\n        parent: number\n        userid: number\n        created: number\n        modified: number\n        mailed: number\n        subject: string\n        message: string\n        messageformat: number\n        messagetrust: number\n        messageinlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: string\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        totalscore: number\n        mailnow: number\n        children: {}[]\n        canreply: number\n        postread: number\n        userfullname: string\n        userpictureurl: string\n        deleted: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
                 },
                 {
                     "title": "mod_forum_get_forum_discussions_paginated",
-                    "description": "Returns a list of forum discussions optionally sorted and\n                        paginated.",
+                    "description": "Returns a list of forum discussions optionally sorted and paginated.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -4238,7 +4238,7 @@
                 },
                 {
                     "title": "mod_forum_get_forums_by_courses",
-                    "description": "Returns a list of\n                        forum instances in a provided set of courses, if no courses are provided\n                        then all the forum instances the user has access to will be returned.\n                    ",
+                    "description": "Returns a list of \nforum instances in a provided set of courses, if no courses are provided\n then all the forum instances the user has access to will be returned.\n    ",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -4349,7 +4349,7 @@
                             "structure": " Default to \"Array\n(\n)\n\" //An array of optionsobject {includenotapproved int  Default to \"0\" //When false, includes the non-approved entries created by the user. When true, also includes the ones that the user has the permission to approve.}"
                         }
                     ],
-                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4389,7 +4389,7 @@
                             "structure": " Default to \"Array\n(\n)\n\" //An array of optionsobject {includenotapproved int  Default to \"0\" //When false, includes the non-approved entries created by the user. When true, also includes the ones that the user has the permission to approve.}"
                         }
                     ],
-                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4421,7 +4421,7 @@
                             "structure": " Default to \"Array\n(\n)\n\" //An array of optionsobject {includenotapproved int  Default to \"0\" //When false, includes the non-approved entries created by the user. When true, also includes the ones that the user has the permission to approve.}"
                         }
                     ],
-                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n        categoryid: number\n        categoryname: string\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n        categoryid: number\n        categoryname: string\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4457,7 +4457,7 @@
                             "structure": " Default to \"Array\n(\n)\n\" //An array of optionsobject {includenotapproved int  Default to \"0\" //When false, includes the non-approved entries created by the user. When true, also includes the ones that the user has the permission to approve.}"
                         }
                     ],
-                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4489,7 +4489,7 @@
                             "structure": " Default to \"Array\n(\n)\n\" //An array of optionsobject {includenotapproved int  Default to \"0\" //When false, includes the non-approved entries created by the user. When true, also includes the ones that the user has the permission to approve.}"
                         }
                     ],
-                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4533,7 +4533,7 @@
                             "structure": " Default to \"Array\n(\n)\n\" //An array of optionsobject {includenotapproved int  Default to \"0\" //When false, includes the non-approved entries created by the user. When true, also includes the ones that the user has the permission to approve.}"
                         }
                     ],
-                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4565,7 +4565,7 @@
                             "structure": " Default to \"Array\n(\n)\n\" //An array of optionsobject {includenotapproved int  Default to \"0\" //When false, includes the non-approved entries created by the user. When true, also includes the ones that the user has the permission to approve.}"
                         }
                     ],
-                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4605,7 +4605,7 @@
                             "structure": " Default to \"Array\n(\n)\n\" //An array of optionsobject {}"
                         }
                     ],
-                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    count: number\n    entries: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }[]\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4621,7 +4621,7 @@
                             "structure": "int   //Glossary entry ID"
                         }
                     ],
-                    "response": "type reponse = {\n    entry: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: double\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    entry: {\n        id: number\n        glossaryid: number\n        userid: number\n        userfullname: string\n        userpictureurl: string\n        concept: string\n        definition: string\n        definitionformat: number\n        definitiontrust: number\n        definitioninlinefiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachment: number\n        attachments: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timecreated: number\n        timemodified: number\n        teacherentry: number\n        sourceglossaryid: number\n        usedynalink: number\n        casesensitive: number\n        fullmatch: number\n        approved: number\n    }\n    ratinginfo: {\n        contextid: number\n        component: string\n        ratingarea: string\n        canviewall: number\n        canviewany: number\n        scales: {\n            id: number\n            courseid: number\n            name: string\n            max: number\n            isnumeric: number\n            items: {\n                value: number\n                name: string\n            }[]\n        }[]\n        ratings: {\n            itemid: number\n            scaleid: number\n            userid: number\n            aggregate: number\n            aggregatestr: string\n            aggregatelabel: string\n            count: number\n            rating: number\n            canrate: number\n            canviewaggregate: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4678,7 +4678,7 @@
             "get": [
                 {
                     "title": "mod_lesson_get_content_pages_viewed",
-                    "description": "Return the list of content pages viewed by a user during a lesson\n                        attempt.",
+                    "description": "Return the list of content pages viewed by a user during a lesson attempt.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -4738,7 +4738,7 @@
                 },
                 {
                     "title": "mod_lesson_get_lessons_by_courses",
-                    "description": "Returns a list of\n                        lessons in a provided list of courses, if no list is provided all\n                        lessons that the user can view will be returned.",
+                    "description": "Returns a list of \nlessons in a provided list of courses, if no list is provided all \nlessons that the user can view will be returned.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -4786,7 +4786,7 @@
                 },
                 {
                     "title": "mod_lesson_get_pages",
-                    "description": "Return the list of pages in a lesson (based on the user\n                        permissions).",
+                    "description": "Return the list of pages in a lesson (based on the user permissions).",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -4806,7 +4806,7 @@
                 },
                 {
                     "title": "mod_lesson_get_pages_possible_jumps",
-                    "description": "Return all the possible jumps for the pages in a given lesson.\n                    ",
+                    "description": "Return all the possible jumps for the pages in a given lesson.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -4854,7 +4854,7 @@
                 },
                 {
                     "title": "mod_lesson_get_user_attempt",
-                    "description": "Return information about the given user attempt (including\n                        answers).",
+                    "description": "Return information about the given user attempt (including answers).",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -4871,7 +4871,7 @@
                             "structure": "int   //The attempt number."
                         }
                     ],
-                    "response": "type reponse = {\n    answerpages: {\n        page: {\n            id: number\n            lessonid: number\n            prevpageid: number\n            nextpageid: number\n            qtype: number\n            qoption: number\n            layout: number\n            display: number\n            timecreated: number\n            timemodified: number\n            title: string\n            contents: string\n            contentsformat: number\n            displayinmenublock: number\n            type: number\n            typeid: number\n            typestring: string\n        }\n        title: string\n        contents: string\n        qtype: string\n        grayout: number\n        answerdata: {\n            score: string\n            response: string\n            responseformat: number\n            answers: {}[]\n        }\n    }[]\n    userstats: {\n        grade: double\n        completed: number\n        timetotake: number\n        gradeinfo: {\n            nquestions: number\n            attempts: number\n            total: double\n            earned: double\n            grade: double\n            nmanual: number\n            manualpoints: double\n        }\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    answerpages: {\n        page: {\n            id: number\n            lessonid: number\n            prevpageid: number\n            nextpageid: number\n            qtype: number\n            qoption: number\n            layout: number\n            display: number\n            timecreated: number\n            timemodified: number\n            title: string\n            contents: string\n            contentsformat: number\n            displayinmenublock: number\n            type: number\n            typeid: number\n            typestring: string\n        }\n        title: string\n        contents: string\n        qtype: string\n        grayout: number\n        answerdata: {\n            score: string\n            response: string\n            responseformat: number\n            answers: {}[]\n        }\n    }[]\n    userstats: {\n        grade: number\n        completed: number\n        timetotake: number\n        gradeinfo: {\n            nquestions: number\n            attempts: number\n            total: number\n            earned: number\n            grade: number\n            nmanual: number\n            manualpoints: number\n        }\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4895,7 +4895,7 @@
                             "structure": "int  Default to \"null\" //the user id (empty for current user)"
                         }
                     ],
-                    "response": "type reponse = {\n    grade: {\n        nquestions: number\n        attempts: number\n        total: double\n        earned: double\n        grade: double\n        nmanual: number\n        manualpoints: double\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    grade: {\n        nquestions: number\n        attempts: number\n        total: number\n        earned: number\n        grade: number\n        nmanual: number\n        manualpoints: number\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -4915,7 +4915,7 @@
                             "structure": "int  Default to \"null\" //the user id (empty for current user)"
                         }
                     ],
-                    "response": "type reponse = {\n    grade: double\n    formattedgrade: string\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    grade: number\n    formattedgrade: string\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5000,7 +5000,7 @@
             "get": [
                 {
                     "title": "mod_lti_get_ltis_by_courses",
-                    "description": "Returns a list of\n                        external tool instances in a provided set of courses, if no courses are\n                        provided then all the external tool instances the user has access to\n                        will be returned.",
+                    "description": "Returns a list of \nexternal tool instances in a provided set of courses, if no courses are \nprovided then all the external tool instances the user has access to \nwill be returned.",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -5082,7 +5082,7 @@
             "view": [
                 {
                     "title": "mod_lti_view_lti",
-                    "description": "Trigger the course module viewed event and update the module\n                        completion status.",
+                    "description": "Trigger the course module viewed event and update the module completion status.",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -5122,7 +5122,7 @@
                 },
                 {
                     "title": "mod_quiz_get_attempt_data",
-                    "description": "Returns information for the given attempt page for a quiz attempt\n                        in progress.",
+                    "description": "Returns information for the given attempt page for a quiz attempt in progress.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5139,14 +5139,14 @@
                             "structure": " Default to \"Array\n(\n)\n\" //Preflight required data (like passwords)list of (object {name string   //data namevalue string   //data value})"
                         }
                     ],
-                    "response": "type reponse = {\n    attempt: {\n        id: number\n        quiz: number\n        userid: number\n        attempt: number\n        uniqueid: number\n        layout: string\n        currentpage: number\n        preview: number\n        state: string\n        timestart: number\n        timefinish: number\n        timemodified: number\n        timemodifiedoffline: number\n        timecheckstate: number\n        sumgrades: double\n    }\n    messages: {}[]\n    nextpage: number\n    questions: {\n        slot: number\n        type: string\n        page: number\n        html: string\n        sequencecheck: number\n        lastactiontime: number\n        hasautosavedstep: number\n        flagged: number\n        number: number\n        state: string\n        status: string\n        blockedbyprevious: number\n        mark: string\n        maxmark: double\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    attempt: {\n        id: number\n        quiz: number\n        userid: number\n        attempt: number\n        uniqueid: number\n        layout: string\n        currentpage: number\n        preview: number\n        state: string\n        timestart: number\n        timefinish: number\n        timemodified: number\n        timemodifiedoffline: number\n        timecheckstate: number\n        sumgrades: number\n    }\n    messages: {}[]\n    nextpage: number\n    questions: {\n        slot: number\n        type: string\n        page: number\n        html: string\n        sequencecheck: number\n        lastactiontime: number\n        hasautosavedstep: number\n        flagged: number\n        number: number\n        state: string\n        status: string\n        blockedbyprevious: number\n        mark: string\n        maxmark: number\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
                 },
                 {
                     "title": "mod_quiz_get_attempt_review",
-                    "description": "Returns review information for the given finished attempt, can be\n                        used by users or teachers.",
+                    "description": "Returns review information for the given finished attempt, can be used by users or teachers.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5159,7 +5159,7 @@
                             "structure": "int  Default to \"-1\" //page number, empty for all the questions in all the pages"
                         }
                     ],
-                    "response": "type reponse = {\n    grade: string\n    attempt: {\n        id: number\n        quiz: number\n        userid: number\n        attempt: number\n        uniqueid: number\n        layout: string\n        currentpage: number\n        preview: number\n        state: string\n        timestart: number\n        timefinish: number\n        timemodified: number\n        timemodifiedoffline: number\n        timecheckstate: number\n        sumgrades: double\n    }\n    additionaldata: {\n        id: string\n        title: string\n        content: string\n    }[]\n    questions: {\n        slot: number\n        type: string\n        page: number\n        html: string\n        sequencecheck: number\n        lastactiontime: number\n        hasautosavedstep: number\n        flagged: number\n        number: number\n        state: string\n        status: string\n        blockedbyprevious: number\n        mark: string\n        maxmark: double\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    grade: string\n    attempt: {\n        id: number\n        quiz: number\n        userid: number\n        attempt: number\n        uniqueid: number\n        layout: string\n        currentpage: number\n        preview: number\n        state: string\n        timestart: number\n        timefinish: number\n        timemodified: number\n        timemodifiedoffline: number\n        timecheckstate: number\n        sumgrades: number\n    }\n    additionaldata: {\n        id: string\n        title: string\n        content: string\n    }[]\n    questions: {\n        slot: number\n        type: string\n        page: number\n        html: string\n        sequencecheck: number\n        lastactiontime: number\n        hasautosavedstep: number\n        flagged: number\n        number: number\n        state: string\n        status: string\n        blockedbyprevious: number\n        mark: string\n        maxmark: number\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5172,21 +5172,21 @@
                     "args": [
                         {
                             "title": "attemptid",
-                            "structure": "                  General structure\n                                    int\n                                    \n                                        //attempt id\n                                    \n                                "
+                            "structure": "int   //attempt id"
                         },
                         {
                             "title": "preflightdata",
                             "structure": " Default to \"Array\n(\n)\n\" //Preflight required data (like passwords)list of (object {name string   //data namevalue string   //data value})"
                         }
                     ],
-                    "response": "type reponse = {\n    questions: {\n        slot: number\n        type: string\n        page: number\n        html: string\n        sequencecheck: number\n        lastactiontime: number\n        hasautosavedstep: number\n        flagged: number\n        number: number\n        state: string\n        status: string\n        blockedbyprevious: number\n        mark: string\n        maxmark: double\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    questions: {\n        slot: number\n        type: string\n        page: number\n        html: string\n        sequencecheck: number\n        lastactiontime: number\n        hasautosavedstep: number\n        flagged: number\n        number: number\n        state: string\n        status: string\n        blockedbyprevious: number\n        mark: string\n        maxmark: number\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
                 },
                 {
                     "title": "mod_quiz_get_combined_review_options",
-                    "description": "Combines the review options from a number of different quiz\n                        attempts.",
+                    "description": "Combines the review options from a number of different quiz attempts.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5222,7 +5222,7 @@
                 },
                 {
                     "title": "mod_quiz_get_quiz_feedback_for_grade",
-                    "description": "Get the feedback text that should be show to a student who got the\n                        given grade in the given quiz.",
+                    "description": "Get the feedback text that should be show to a student who got the given grade in the given quiz.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5242,7 +5242,7 @@
                 },
                 {
                     "title": "mod_quiz_get_quiz_required_qtypes",
-                    "description": "Return the potential question types that would be required for a\n                        given quiz.",
+                    "description": "Return the potential question types that would be required for a given quiz.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5258,7 +5258,7 @@
                 },
                 {
                     "title": "mod_quiz_get_quizzes_by_courses",
-                    "description": "Returns a list of\n                        quizzes in a provided list of courses, if no list is provided all\n                        quizzes that the user can view will be returned.",
+                    "description": "Returns a list of \nquizzes in a provided list of courses, if no list is provided all \nquizzes that the user can view will be returned.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5267,7 +5267,7 @@
                             "structure": " Default to \"Array\n(\n)\n\" //Array of course idslist of (int   //course id)"
                         }
                     ],
-                    "response": "type reponse = {\n    quizzes: {\n        id: number\n        course: number\n        coursemodule: number\n        name: string\n        intro: string\n        introformat: number\n        introfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timeopen: number\n        timeclose: number\n        timelimit: number\n        overduehandling: string\n        graceperiod: number\n        preferredbehaviour: string\n        canredoquestions: number\n        attempts: number\n        attemptonlast: number\n        grademethod: number\n        decimalpoints: number\n        questiondecimalpoints: number\n        reviewattempt: number\n        reviewcorrectness: number\n        reviewmarks: number\n        reviewspecificfeedback: number\n        reviewgeneralfeedback: number\n        reviewrightanswer: number\n        reviewoverallfeedback: number\n        questionsperpage: number\n        navmethod: string\n        shuffleanswers: number\n        sumgrades: double\n        grade: double\n        timecreated: number\n        timemodified: number\n        password: string\n        subnet: string\n        browsersecurity: string\n        delay1: number\n        delay2: number\n        showuserpicture: number\n        showblocks: number\n        completionattemptsexhausted: number\n        completionpass: number\n        allowofflineattempts: number\n        autosaveperiod: number\n        hasfeedback: number\n        hasquestions: number\n        section: number\n        visible: number\n        groupmode: number\n        groupingid: number\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    quizzes: {\n        id: number\n        course: number\n        coursemodule: number\n        name: string\n        intro: string\n        introformat: number\n        introfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        timeopen: number\n        timeclose: number\n        timelimit: number\n        overduehandling: string\n        graceperiod: number\n        preferredbehaviour: string\n        canredoquestions: number\n        attempts: number\n        attemptonlast: number\n        grademethod: number\n        decimalpoints: number\n        questiondecimalpoints: number\n        reviewattempt: number\n        reviewcorrectness: number\n        reviewmarks: number\n        reviewspecificfeedback: number\n        reviewgeneralfeedback: number\n        reviewrightanswer: number\n        reviewoverallfeedback: number\n        questionsperpage: number\n        navmethod: string\n        shuffleanswers: number\n        sumgrades: number\n        grade: number\n        timecreated: number\n        timemodified: number\n        password: string\n        subnet: string\n        browsersecurity: string\n        delay1: number\n        delay2: number\n        showuserpicture: number\n        showblocks: number\n        completionattemptsexhausted: number\n        completionpass: number\n        allowofflineattempts: number\n        autosaveperiod: number\n        hasfeedback: number\n        hasquestions: number\n        section: number\n        visible: number\n        groupmode: number\n        groupingid: number\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5295,7 +5295,7 @@
                             "structure": "int  Default to \"\" //whether to include previews or not"
                         }
                     ],
-                    "response": "type reponse = {\n    attempts: {\n        id: number\n        quiz: number\n        userid: number\n        attempt: number\n        uniqueid: number\n        layout: string\n        currentpage: number\n        preview: number\n        state: string\n        timestart: number\n        timefinish: number\n        timemodified: number\n        timemodifiedoffline: number\n        timecheckstate: number\n        sumgrades: double\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    attempts: {\n        id: number\n        quiz: number\n        userid: number\n        attempt: number\n        uniqueid: number\n        layout: string\n        currentpage: number\n        preview: number\n        state: string\n        timestart: number\n        timefinish: number\n        timemodified: number\n        timemodifiedoffline: number\n        timecheckstate: number\n        sumgrades: number\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5315,7 +5315,7 @@
                             "structure": "int  Default to \"0\" //user id"
                         }
                     ],
-                    "response": "type reponse = {\n    hasgrade: number\n    grade: double\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    hasgrade: number\n    grade: number\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5341,7 +5341,7 @@
                             "structure": "int  Default to \"\" //Whether to force a new attempt or not."
                         }
                     ],
-                    "response": "type reponse = {\n    attempt: {\n        id: number\n        quiz: number\n        userid: number\n        attempt: number\n        uniqueid: number\n        layout: string\n        currentpage: number\n        preview: number\n        state: string\n        timestart: number\n        timefinish: number\n        timemodified: number\n        timemodifiedoffline: number\n        timecheckstate: number\n        sumgrades: double\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    attempt: {\n        id: number\n        quiz: number\n        userid: number\n        attempt: number\n        uniqueid: number\n        layout: string\n        currentpage: number\n        preview: number\n        state: string\n        timestart: number\n        timefinish: number\n        timemodified: number\n        timemodifiedoffline: number\n        timecheckstate: number\n        sumgrades: number\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5410,7 +5410,7 @@
                 },
                 {
                     "title": "mod_quiz_view_quiz",
-                    "description": "Trigger the course module viewed event and update the module\n                        completion status.",
+                    "description": "Trigger the course module viewed event and update the module completion status.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5430,7 +5430,7 @@
             "get": [
                 {
                     "title": "mod_scorm_get_scorm_attempt_count",
-                    "description": "Return the number of attempts done by a user in the given SCORM.\n                    ",
+                    "description": "Return the number of attempts done by a user in the given SCORM.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5454,7 +5454,7 @@
                 },
                 {
                     "title": "mod_scorm_get_scorm_sco_tracks",
-                    "description": "Retrieves SCO tracking data for the given user id and attempt\n                        number",
+                    "description": "Retrieves SCO tracking data for the given user id and attempt number",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5478,7 +5478,7 @@
                 },
                 {
                     "title": "mod_scorm_get_scorm_scoes",
-                    "description": "Returns a list containing all the scoes data related to the given\n                        scorm id",
+                    "description": "Returns a list containing all the scoes data related to the given scorm id",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5518,7 +5518,7 @@
                 },
                 {
                     "title": "mod_scorm_get_scorms_by_courses",
-                    "description": "Returns a list of\n                        scorm instances in a provided set of courses, if no courses are provided\n                        then all the scorm instances the user has access to will be returned.",
+                    "description": "Returns a list of \nscorm instances in a provided set of courses, if no courses are provided\n then all the scorm instances the user has access to will be returned.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5556,7 +5556,7 @@
             "get": [
                 {
                     "title": "mod_url_get_urls_by_courses",
-                    "description": "Returns a list of urls in a provided list of courses, if no list is\n                        provided all urls that the user can view will be returned.",
+                    "description": "Returns a list of urls in a provided list of courses, if no list is provided all urls that the user can view will be returned.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5678,7 +5678,7 @@
                 },
                 {
                     "title": "mod_wiki_get_subwikis",
-                    "description": "Returns the list of subwikis the user can see in a specific wiki.\n                    ",
+                    "description": "Returns the list of subwikis the user can see in a specific wiki.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5694,7 +5694,7 @@
                 },
                 {
                     "title": "mod_wiki_get_wikis_by_courses",
-                    "description": "Returns a list of\n                        wiki instances in a provided set of courses, if no courses are provided\n                        then all the wiki instances the user has access to will be returned.",
+                    "description": "Returns a list of \nwiki instances in a provided set of courses, if no courses are provided \nthen all the wiki instances the user has access to will be returned.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5752,7 +5752,7 @@
             "evaluate": [
                 {
                     "title": "mod_workshop_evaluate_assessment",
-                    "description": "Evaluates an assessment (used by teachers for provide feedback to\n                        the reviewer).",
+                    "description": "Evaluates an assessment (used by teachers for provide feedback to the reviewer).",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5784,7 +5784,7 @@
                 },
                 {
                     "title": "mod_workshop_evaluate_submission",
-                    "description": "Evaluates a submission (used by teachers for provide feedback or\n                        override the submission grade).",
+                    "description": "Evaluates a submission (used by teachers for provide feedback or override the submission grade).",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5831,14 +5831,14 @@
                             "structure": "string  Default to \"assessment\" //The form mode (assessment or preview)"
                         }
                     ],
-                    "response": "type reponse = {\n    dimenssionscount: number\n    descriptionfiles: {\n        filename: string\n        filepath: string\n        filesize: number\n        fileurl: string\n        timemodified: number\n        mimetype: string\n        isexternalfile: number\n        repositorytype: string\n    }[]\n    options: {\n        name: string\n        value: string\n    }[]\n    fields: {\n        name: string\n        value: string\n    }[]\n    current: {\n        name: string\n        value: string\n    }[]\n    dimensionsinfo: {\n        id: number\n        min: double\n        max: double\n        weight: string\n        scale: string\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    dimenssionscount: number\n    descriptionfiles: {\n        filename: string\n        filepath: string\n        filesize: number\n        fileurl: string\n        timemodified: number\n        mimetype: string\n        isexternalfile: number\n        repositorytype: string\n    }[]\n    options: {\n        name: string\n        value: string\n    }[]\n    fields: {\n        name: string\n        value: string\n    }[]\n    current: {\n        name: string\n        value: string\n    }[]\n    dimensionsinfo: {\n        id: number\n        min: number\n        max: number\n        weight: string\n        scale: string\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
                 },
                 {
                     "title": "mod_workshop_get_grades",
-                    "description": "Returns the assessment and submission grade for the given user.\n                    ",
+                    "description": "Returns the assessment and submission grade for the given user.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5851,7 +5851,7 @@
                             "structure": "int  Default to \"0\" //User id (empty or 0 for current user)."
                         }
                     ],
-                    "response": "type reponse = {\n    assessmentrawgrade: double\n    assessmentlongstrgrade: string\n    assessmentgradehidden: number\n    submissionrawgrade: double\n    submissionlongstrgrade: string\n    submissiongradehidden: number\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    assessmentrawgrade: number\n    assessmentlongstrgrade: string\n    assessmentgradehidden: number\n    submissionrawgrade: number\n    submissionlongstrgrade: string\n    submissiongradehidden: number\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5887,7 +5887,7 @@
                             "structure": "int  Default to \"0\" //The number of records to return per page."
                         }
                     ],
-                    "response": "type reponse = {\n    report: {\n        grades: {\n            userid: number\n            submissionid: number\n            submissiontitle: string\n            submissionmodified: number\n            submissiongrade: double\n            gradinggrade: double\n            submissiongradeover: double\n            submissiongradeoverby: number\n            submissionpublished: number\n            reviewedby: {\n                userid: number\n                assessmentid: number\n                submissionid: number\n                grade: double\n                gradinggrade: double\n                gradinggradeover: double\n                weight: number\n            }[]\n            reviewerof: {\n                userid: number\n                assessmentid: number\n                submissionid: number\n                grade: double\n                gradinggrade: double\n                gradinggradeover: double\n                weight: number\n            }[]\n        }[]\n        totalcount: number\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    report: {\n        grades: {\n            userid: number\n            submissionid: number\n            submissiontitle: string\n            submissionmodified: number\n            submissiongrade: number\n            gradinggrade: number\n            submissiongradeover: number\n            submissiongradeoverby: number\n            submissionpublished: number\n            reviewedby: {\n                userid: number\n                assessmentid: number\n                submissionid: number\n                grade: number\n                gradinggrade: number\n                gradinggradeover: number\n                weight: number\n            }[]\n            reviewerof: {\n                userid: number\n                assessmentid: number\n                submissionid: number\n                grade: number\n                gradinggrade: number\n                gradinggradeover: number\n                weight: number\n            }[]\n        }[]\n        totalcount: number\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5907,7 +5907,7 @@
                             "structure": "int  Default to \"0\" //User id who did the assessment review (empty or 0 for current user)."
                         }
                     ],
-                    "response": "type reponse = {\n    assessments: {\n        id: number\n        submissionid: number\n        reviewerid: number\n        weight: number\n        timecreated: number\n        timemodified: number\n        grade: double\n        gradinggrade: double\n        gradinggradeover: double\n        gradinggradeoverby: number\n        feedbackauthor: string\n        feedbackauthorformat: number\n        feedbackauthorattachment: number\n        feedbackreviewer: string\n        feedbackreviewerformat: number\n        feedbackcontentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        feedbackattachmentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    assessments: {\n        id: number\n        submissionid: number\n        reviewerid: number\n        weight: number\n        timecreated: number\n        timemodified: number\n        grade: number\n        gradinggrade: number\n        gradinggradeover: number\n        gradinggradeoverby: number\n        feedbackauthor: string\n        feedbackauthorformat: number\n        feedbackauthorattachment: number\n        feedbackreviewer: string\n        feedbackreviewerformat: number\n        feedbackcontentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        feedbackattachmentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5923,7 +5923,7 @@
                             "structure": "int   //Submission id"
                         }
                     ],
-                    "response": "type reponse = {\n    submission: {\n        id: number\n        workshopid: number\n        example: number\n        authorid: number\n        timecreated: number\n        timemodified: number\n        title: string\n        content: string\n        contentformat: number\n        contenttrust: number\n        attachment: number\n        grade: double\n        gradeover: double\n        gradeoverby: number\n        feedbackauthor: string\n        feedbackauthorformat: number\n        timegraded: number\n        published: number\n        late: number\n        contentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachmentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    submission: {\n        id: number\n        workshopid: number\n        example: number\n        authorid: number\n        timecreated: number\n        timemodified: number\n        title: string\n        content: string\n        contentformat: number\n        contenttrust: number\n        attachment: number\n        grade: number\n        gradeover: number\n        gradeoverby: number\n        feedbackauthor: string\n        feedbackauthorformat: number\n        timegraded: number\n        published: number\n        late: number\n        contentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachmentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5939,14 +5939,14 @@
                             "structure": "int   //Submission id"
                         }
                     ],
-                    "response": "type reponse = {\n    assessments: {\n        id: number\n        submissionid: number\n        reviewerid: number\n        weight: number\n        timecreated: number\n        timemodified: number\n        grade: double\n        gradinggrade: double\n        gradinggradeover: double\n        gradinggradeoverby: number\n        feedbackauthor: string\n        feedbackauthorformat: number\n        feedbackauthorattachment: number\n        feedbackreviewer: string\n        feedbackreviewerformat: number\n        feedbackcontentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        feedbackattachmentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    assessments: {\n        id: number\n        submissionid: number\n        reviewerid: number\n        weight: number\n        timecreated: number\n        timemodified: number\n        grade: number\n        gradinggrade: number\n        gradinggradeover: number\n        gradinggradeoverby: number\n        feedbackauthor: string\n        feedbackauthorformat: number\n        feedbackauthorattachment: number\n        feedbackreviewer: string\n        feedbackreviewerformat: number\n        feedbackcontentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        feedbackattachmentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
                 },
                 {
                     "title": "mod_workshop_get_submissions",
-                    "description": "Retrieves all the workshop submissions or the one done by the given\n                        user (except example submissions).",
+                    "description": "Retrieves all the workshop submissions or the one done by the given user (except example submissions).",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -5971,7 +5971,7 @@
                             "structure": "int  Default to \"0\" //The number of records to return per page."
                         }
                     ],
-                    "response": "type reponse = {\n    submissions: {\n        id: number\n        workshopid: number\n        example: number\n        authorid: number\n        timecreated: number\n        timemodified: number\n        title: string\n        content: string\n        contentformat: number\n        contenttrust: number\n        attachment: number\n        grade: double\n        gradeover: double\n        gradeoverby: number\n        feedbackauthor: string\n        feedbackauthorformat: number\n        timegraded: number\n        published: number\n        late: number\n        contentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachmentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n    }[]\n    totalcount: number\n    totalfilesize: number\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    submissions: {\n        id: number\n        workshopid: number\n        example: number\n        authorid: number\n        timecreated: number\n        timemodified: number\n        title: string\n        content: string\n        contentformat: number\n        contenttrust: number\n        attachment: number\n        grade: number\n        gradeover: number\n        gradeoverby: number\n        feedbackauthor: string\n        feedbackauthorformat: number\n        timegraded: number\n        published: number\n        late: number\n        contentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        attachmentfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n    }[]\n    totalcount: number\n    totalfilesize: number\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -5991,7 +5991,7 @@
                             "structure": "int  Default to \"0\" //User id (empty or 0 for current user)."
                         }
                     ],
-                    "response": "type reponse = {\n    userplan: {\n        phases: {\n            code: number\n            title: string\n            active: number\n            tasks: {\n                code: string\n                title: string\n                link: string\n                details: string\n                completed: string\n            }[]\n            actions: {\n                type: string\n                label: string\n                url: string\n                method: string\n            }[]\n        }[]\n        examples: {\n            id: number\n            title: string\n            assessmentid: number\n            grade: double\n            gradinggrade: double\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    userplan: {\n        phases: {\n            code: number\n            title: string\n            active: number\n            tasks: {\n                code: string\n                title: string\n                link: string\n                details: string\n                completed: string\n            }[]\n            actions: {\n                type: string\n                label: string\n                url: string\n                method: string\n            }[]\n        }[]\n        examples: {\n            id: number\n            title: string\n            assessmentid: number\n            grade: number\n            gradinggrade: number\n        }[]\n    }\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -6014,7 +6014,7 @@
                 },
                 {
                     "title": "mod_workshop_get_workshops_by_courses",
-                    "description": "Returns a list of\n                        workshops in a provided list of courses, if no list is provided all\n                        workshops that the user can view will be returned.",
+                    "description": "Returns a list of \nworkshops in a provided list of courses, if no list is provided all \nworkshops that the user can view will be returned.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -6023,7 +6023,7 @@
                             "structure": " Default to \"Array\n(\n)\n\" //Array of course idslist of (int   //Course id)"
                         }
                     ],
-                    "response": "type reponse = {\n    workshops: {\n        id: number\n        course: number\n        name: string\n        intro: string\n        introformat: number\n        instructauthors: string\n        instructauthorsformat: number\n        instructreviewers: string\n        instructreviewersformat: number\n        timemodified: number\n        phase: number\n        useexamples: number\n        usepeerassessment: number\n        useselfassessment: number\n        grade: double\n        gradinggrade: double\n        strategy: string\n        evaluation: string\n        gradedecimals: number\n        nattachments: number\n        submissionfiletypes: string\n        latesubmissions: number\n        maxbytes: number\n        examplesmode: number\n        submissionstart: number\n        submissionend: number\n        assessmentstart: number\n        assessmentend: number\n        phaseswitchassessment: number\n        conclusion: string\n        conclusionformat: number\n        overallfeedbackmode: number\n        overallfeedbackfiles: number\n        overallfeedbackfiletypes: string\n        overallfeedbackmaxbytes: number\n        coursemodule: number\n        introfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        instructauthorsfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        instructreviewersfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        conclusionfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
+                    "response": "type reponse = {\n    workshops: {\n        id: number\n        course: number\n        name: string\n        intro: string\n        introformat: number\n        instructauthors: string\n        instructauthorsformat: number\n        instructreviewers: string\n        instructreviewersformat: number\n        timemodified: number\n        phase: number\n        useexamples: number\n        usepeerassessment: number\n        useselfassessment: number\n        grade: number\n        gradinggrade: number\n        strategy: string\n        evaluation: string\n        gradedecimals: number\n        nattachments: number\n        submissionfiletypes: string\n        latesubmissions: number\n        maxbytes: number\n        examplesmode: number\n        submissionstart: number\n        submissionend: number\n        assessmentstart: number\n        assessmentend: number\n        phaseswitchassessment: number\n        conclusion: string\n        conclusionformat: number\n        overallfeedbackmode: number\n        overallfeedbackfiles: number\n        overallfeedbackfiletypes: string\n        overallfeedbackmaxbytes: number\n        coursemodule: number\n        introfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        instructauthorsfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        instructreviewersfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n        conclusionfiles: {\n            filename: string\n            filepath: string\n            filesize: number\n            fileurl: string\n            timemodified: number\n            mimetype: string\n            isexternalfile: number\n            repositorytype: string\n        }[]\n    }[]\n    warnings: {\n        item: string\n        itemid: number\n        warningcode: string\n        message: string\n    }[]\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -6238,7 +6238,7 @@
             "data": [
                 {
                     "title": "tool_lp_data_for_competency_frameworks_manage_page",
-                    "description": "Load the data for the competency frameworks manage page template\n                    ",
+                    "description": "Load the data for the competency frameworks manage page template",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -6287,7 +6287,7 @@
                             "structure": "int   //The course id"
                         }
                     ],
-                    "response": "type reponse = {\n    courseid: number\n    pagecontextid: number\n    gradableuserid: number\n    canmanagecompetencyframeworks: number\n    canmanagecoursecompetencies: number\n    canconfigurecoursecompetencies: number\n    cangradecompetencies: number\n    settings: {\n        courseid: number\n        pushratingstouserplans: number\n        id: number\n        timecreated: number\n        timemodified: number\n        usermodified: number\n    }\n    statistics: {\n        competencycount: number\n        proficientcompetencycount: number\n        proficientcompetencypercentage: double\n        proficientcompetencypercentageformatted: string\n        leastproficient: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }[]\n        leastproficientcount: number\n        canbegradedincourse: number\n        canmanagecoursecompetencies: number\n    }\n    competencies: {\n        competency: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }\n        coursecompetency: {\n            courseid: number\n            competencyid: number\n            sortorder: number\n            ruleoutcome: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }\n        coursemodules: {\n            id: number\n            name: string\n            url: string\n            iconurl: string\n        }[]\n        usercompetencycourse: {\n            userid: number\n            courseid: number\n            competencyid: number\n            proficiency: number\n            grade: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n            gradename: string\n            proficiencyname: string\n        }\n        ruleoutcomeoptions: {\n            value: number\n            text: string\n            selected: number\n        }[]\n        comppath: {\n            ancestors: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }[]\n            framework: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }\n            pluginbaseurl: string\n            pagecontextid: number\n        }\n    }[]\n    manageurl: string\n    pluginbaseurl: string\n}\n",
+                    "response": "type reponse = {\n    courseid: number\n    pagecontextid: number\n    gradableuserid: number\n    canmanagecompetencyframeworks: number\n    canmanagecoursecompetencies: number\n    canconfigurecoursecompetencies: number\n    cangradecompetencies: number\n    settings: {\n        courseid: number\n        pushratingstouserplans: number\n        id: number\n        timecreated: number\n        timemodified: number\n        usermodified: number\n    }\n    statistics: {\n        competencycount: number\n        proficientcompetencycount: number\n        proficientcompetencypercentage: number\n        proficientcompetencypercentageformatted: string\n        leastproficient: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }[]\n        leastproficientcount: number\n        canbegradedincourse: number\n        canmanagecoursecompetencies: number\n    }\n    competencies: {\n        competency: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }\n        coursecompetency: {\n            courseid: number\n            competencyid: number\n            sortorder: number\n            ruleoutcome: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }\n        coursemodules: {\n            id: number\n            name: string\n            url: string\n            iconurl: string\n        }[]\n        usercompetencycourse: {\n            userid: number\n            courseid: number\n            competencyid: number\n            proficiency: number\n            grade: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n            gradename: string\n            proficiencyname: string\n        }\n        ruleoutcomeoptions: {\n            value: number\n            text: string\n            selected: number\n        }[]\n        comppath: {\n            ancestors: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }[]\n            framework: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }\n            pluginbaseurl: string\n            pagecontextid: number\n        }\n    }[]\n    manageurl: string\n    pluginbaseurl: string\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -6303,7 +6303,7 @@
                             "structure": "int   //The plan id"
                         }
                     ],
-                    "response": "type reponse = {\n    plan: {\n        name: string\n        description: string\n        descriptionformat: number\n        userid: number\n        templateid: number\n        origtemplateid: number\n        status: number\n        duedate: number\n        reviewerid: number\n        id: number\n        timecreated: number\n        timemodified: number\n        usermodified: number\n        statusname: string\n        isbasedontemplate: number\n        canmanage: number\n        canrequestreview: number\n        canreview: number\n        canbeedited: number\n        isactive: number\n        isdraft: number\n        iscompleted: number\n        isinreview: number\n        iswaitingforreview: number\n        isreopenallowed: number\n        iscompleteallowed: number\n        isunlinkallowed: number\n        isrequestreviewallowed: number\n        iscancelreviewrequestallowed: number\n        isstartreviewallowed: number\n        isstopreviewallowed: number\n        isapproveallowed: number\n        isunapproveallowed: number\n        duedateformatted: string\n        commentarea: {\n            component: string\n            commentarea: string\n            itemid: number\n            courseid: number\n            contextid: number\n            cid: string\n            autostart: number\n            canpost: number\n            canview: number\n            count: number\n            collapsediconkey: string\n            displaytotalcount: number\n            displaycancel: number\n            fullwidth: number\n            linktext: string\n            notoggle: number\n            template: string\n            canpostorhascomments: number\n        }\n        reviewer: {\n            id: number\n            email: string\n            idnumber: string\n            phone1: string\n            phone2: string\n            department: string\n            institution: string\n            fullname: string\n            identity: string\n            profileurl: string\n            profileimageurl: string\n            profileimageurlsmall: string\n        }\n        template: {\n            shortname: string\n            description: string\n            descriptionformat: number\n            duedate: number\n            visible: number\n            contextid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n            duedateformatted: string\n            cohortscount: number\n            planscount: number\n            canmanage: number\n            canread: number\n            contextname: string\n            contextnamenoprefix: string\n        }\n        url: string\n    }\n    contextid: number\n    pluginbaseurl: string\n    competencies: {\n        competency: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }\n        comppath: {\n            ancestors: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }[]\n            framework: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }\n            pluginbaseurl: string\n            pagecontextid: number\n        }\n        usercompetency: {\n            userid: number\n            competencyid: number\n            status: number\n            reviewerid: number\n            proficiency: number\n            grade: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n            canrequestreview: number\n            canreview: number\n            gradename: string\n            isrequestreviewallowed: number\n            iscancelreviewrequestallowed: number\n            isstartreviewallowed: number\n            isstopreviewallowed: number\n            isstatusidle: number\n            isstatusinreview: number\n            isstatuswaitingforreview: number\n            proficiencyname: string\n            reviewer: {\n                id: number\n                email: string\n                idnumber: string\n                phone1: string\n                phone2: string\n                department: string\n                institution: string\n                fullname: string\n                identity: string\n                profileurl: string\n                profileimageurl: string\n                profileimageurlsmall: string\n            }\n            statusname: string\n            url: string\n        }\n        usercompetencyplan: {\n            userid: number\n            competencyid: number\n            proficiency: number\n            grade: number\n            planid: number\n            sortorder: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n            gradename: string\n            proficiencyname: string\n        }\n    }[]\n    competencycount: number\n    proficientcompetencycount: number\n    proficientcompetencypercentage: double\n    proficientcompetencypercentageformatted: string\n}\n",
+                    "response": "type reponse = {\n    plan: {\n        name: string\n        description: string\n        descriptionformat: number\n        userid: number\n        templateid: number\n        origtemplateid: number\n        status: number\n        duedate: number\n        reviewerid: number\n        id: number\n        timecreated: number\n        timemodified: number\n        usermodified: number\n        statusname: string\n        isbasedontemplate: number\n        canmanage: number\n        canrequestreview: number\n        canreview: number\n        canbeedited: number\n        isactive: number\n        isdraft: number\n        iscompleted: number\n        isinreview: number\n        iswaitingforreview: number\n        isreopenallowed: number\n        iscompleteallowed: number\n        isunlinkallowed: number\n        isrequestreviewallowed: number\n        iscancelreviewrequestallowed: number\n        isstartreviewallowed: number\n        isstopreviewallowed: number\n        isapproveallowed: number\n        isunapproveallowed: number\n        duedateformatted: string\n        commentarea: {\n            component: string\n            commentarea: string\n            itemid: number\n            courseid: number\n            contextid: number\n            cid: string\n            autostart: number\n            canpost: number\n            canview: number\n            count: number\n            collapsediconkey: string\n            displaytotalcount: number\n            displaycancel: number\n            fullwidth: number\n            linktext: string\n            notoggle: number\n            template: string\n            canpostorhascomments: number\n        }\n        reviewer: {\n            id: number\n            email: string\n            idnumber: string\n            phone1: string\n            phone2: string\n            department: string\n            institution: string\n            fullname: string\n            identity: string\n            profileurl: string\n            profileimageurl: string\n            profileimageurlsmall: string\n        }\n        template: {\n            shortname: string\n            description: string\n            descriptionformat: number\n            duedate: number\n            visible: number\n            contextid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n            duedateformatted: string\n            cohortscount: number\n            planscount: number\n            canmanage: number\n            canread: number\n            contextname: string\n            contextnamenoprefix: string\n        }\n        url: string\n    }\n    contextid: number\n    pluginbaseurl: string\n    competencies: {\n        competency: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }\n        comppath: {\n            ancestors: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }[]\n            framework: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }\n            pluginbaseurl: string\n            pagecontextid: number\n        }\n        usercompetency: {\n            userid: number\n            competencyid: number\n            status: number\n            reviewerid: number\n            proficiency: number\n            grade: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n            canrequestreview: number\n            canreview: number\n            gradename: string\n            isrequestreviewallowed: number\n            iscancelreviewrequestallowed: number\n            isstartreviewallowed: number\n            isstopreviewallowed: number\n            isstatusidle: number\n            isstatusinreview: number\n            isstatuswaitingforreview: number\n            proficiencyname: string\n            reviewer: {\n                id: number\n                email: string\n                idnumber: string\n                phone1: string\n                phone2: string\n                department: string\n                institution: string\n                fullname: string\n                identity: string\n                profileurl: string\n                profileimageurl: string\n                profileimageurlsmall: string\n            }\n            statusname: string\n            url: string\n        }\n        usercompetencyplan: {\n            userid: number\n            competencyid: number\n            proficiency: number\n            grade: number\n            planid: number\n            sortorder: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n            gradename: string\n            proficiencyname: string\n        }\n    }[]\n    competencycount: number\n    proficientcompetencycount: number\n    proficientcompetencypercentage: number\n    proficientcompetencypercentageformatted: string\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
@@ -6355,14 +6355,14 @@
                             "structure": "object {contextid int  Default to \"0\" //Context ID. Either use this value, or level and instanceid.contextlevel string  Default to \"\" //Context level. To be used with instanceid.instanceid int  Default to \"0\" //Context instance ID. To be used with level}"
                         }
                     ],
-                    "response": "type reponse = {\n    template: {\n        shortname: string\n        description: string\n        descriptionformat: number\n        duedate: number\n        visible: number\n        contextid: number\n        id: number\n        timecreated: number\n        timemodified: number\n        usermodified: number\n        duedateformatted: string\n        cohortscount: number\n        planscount: number\n        canmanage: number\n        canread: number\n        contextname: string\n        contextnamenoprefix: string\n    }\n    pagecontextid: number\n    canmanagecompetencyframeworks: number\n    canmanagetemplatecompetencies: number\n    competencies: {\n        linkedcourses: {\n            id: number\n            fullname: string\n            shortname: string\n            idnumber: string\n            summary: string\n            summaryformat: number\n            startdate: number\n            enddate: number\n            fullnamedisplay: string\n            viewurl: string\n        }[]\n        relatedcompetencies: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }[]\n        competency: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }\n        framework: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            visible: number\n            scaleid: number\n            scaleconfiguration: string\n            contextid: number\n            taxonomies: string\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n            canmanage: number\n            competenciescount: number\n            contextname: string\n            contextnamenoprefix: string\n        }\n        hascourses: number\n        hasrelatedcompetencies: number\n        scaleid: number\n        scaleconfiguration: string\n        taxonomyterm: string\n        comppath: {\n            ancestors: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }[]\n            framework: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }\n            pluginbaseurl: string\n            pagecontextid: number\n        }\n    }[]\n    manageurl: string\n    pluginbaseurl: string\n    statistics: {\n        competencycount: number\n        unlinkedcompetencycount: number\n        plancount: number\n        completedplancount: number\n        usercompetencyplancount: number\n        proficientusercompetencyplancount: number\n        linkedcompetencypercentage: double\n        linkedcompetencypercentageformatted: string\n        linkedcompetencycount: number\n        completedplanpercentage: double\n        completedplanpercentageformatted: string\n        proficientusercompetencyplanpercentage: double\n        proficientusercompetencyplanpercentageformatted: string\n        leastproficient: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }[]\n        leastproficientcount: number\n    }\n}\n",
+                    "response": "type reponse = {\n    template: {\n        shortname: string\n        description: string\n        descriptionformat: number\n        duedate: number\n        visible: number\n        contextid: number\n        id: number\n        timecreated: number\n        timemodified: number\n        usermodified: number\n        duedateformatted: string\n        cohortscount: number\n        planscount: number\n        canmanage: number\n        canread: number\n        contextname: string\n        contextnamenoprefix: string\n    }\n    pagecontextid: number\n    canmanagecompetencyframeworks: number\n    canmanagetemplatecompetencies: number\n    competencies: {\n        linkedcourses: {\n            id: number\n            fullname: string\n            shortname: string\n            idnumber: string\n            summary: string\n            summaryformat: number\n            startdate: number\n            enddate: number\n            fullnamedisplay: string\n            viewurl: string\n        }[]\n        relatedcompetencies: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }[]\n        competency: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }\n        framework: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            visible: number\n            scaleid: number\n            scaleconfiguration: string\n            contextid: number\n            taxonomies: string\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n            canmanage: number\n            competenciescount: number\n            contextname: string\n            contextnamenoprefix: string\n        }\n        hascourses: number\n        hasrelatedcompetencies: number\n        scaleid: number\n        scaleconfiguration: string\n        taxonomyterm: string\n        comppath: {\n            ancestors: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }[]\n            framework: {\n                id: number\n                name: string\n                first: number\n                last: number\n                position: number\n            }\n            pluginbaseurl: string\n            pagecontextid: number\n        }\n    }[]\n    manageurl: string\n    pluginbaseurl: string\n    statistics: {\n        competencycount: number\n        unlinkedcompetencycount: number\n        plancount: number\n        completedplancount: number\n        usercompetencyplancount: number\n        proficientusercompetencyplancount: number\n        linkedcompetencypercentage: number\n        linkedcompetencypercentageformatted: string\n        linkedcompetencycount: number\n        completedplanpercentage: number\n        completedplanpercentageformatted: string\n        proficientusercompetencyplanpercentage: number\n        proficientusercompetencyplanpercentageformatted: string\n        leastproficient: {\n            shortname: string\n            idnumber: string\n            description: string\n            descriptionformat: number\n            sortorder: number\n            parentid: number\n            path: string\n            ruleoutcome: number\n            ruletype: string\n            ruleconfig: string\n            scaleid: number\n            scaleconfiguration: string\n            competencyframeworkid: number\n            id: number\n            timecreated: number\n            timemodified: number\n            usermodified: number\n        }[]\n        leastproficientcount: number\n    }\n}\n",
                     "errors": [
                         "invalid_parameter_exception"
                     ]
                 },
                 {
                     "title": "tool_lp_data_for_templates_manage_page",
-                    "description": "Load the data for the learning plan templates manage page template\n                    ",
+                    "description": "Load the data for the learning plan templates manage page template",
                     "ajax": true,
                     "login": true,
                     "args": [
@@ -6540,7 +6540,7 @@
             "get": [
                 {
                     "title": "tool_mobile_get_config",
-                    "description": "Returns a list of the site configurations, filtering by section.\n                    ",
+                    "description": "Returns a list of the site configurations, filtering by section.",
                     "ajax": false,
                     "login": true,
                     "args": [
@@ -6591,7 +6591,7 @@
                 },
                 {
                     "title": "tool_mobile_get_public_config",
-                    "description": "Returns a list of the site public settings, those not requiring\n                        authentication.",
+                    "description": "Returns a list of the site public settings, those not requiring authentication.",
                     "ajax": true,
                     "login": false,
                     "args": [],

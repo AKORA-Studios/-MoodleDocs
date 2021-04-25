@@ -5,7 +5,7 @@ const { readFileSync, writeFileSync, watchFile } = require("fs");
 
 
 function convertType(str) {
-    if (str === 'int') return 'number';
+    if (str === 'int' || str === 'double') return 'number';
     return str;
 }
 
