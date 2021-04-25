@@ -37,3 +37,27 @@ function showResult(str) {
         .join('<br />');
     livesearch.setAttribute('open', '');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Fixing Highlight JS
+let codes = Array.from(document.querySelectorAll('code'));
+
+for (let code of codes) {
+    code.innerHTML = code.innerHTML
+        .replace(/\{/g, '<span class="hljs-bracket">{</span>')
+        .replace(/\}/g, '<span class="hljs-bracket">}</span>')
+        .replace(/\[/g, '<span class="hljs-bracket">[</span>')
+        .replace(/\]/g, '<span class="hljs-bracket">]</span>')
+}
